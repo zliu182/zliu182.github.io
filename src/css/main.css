@@ -30,6 +30,10 @@ body {
   text-align: center;
 }
 
+.text-left {
+  text-align: left;
+}
+
 .container {
   max-width: 1024px;
   border-radius: 5px;
@@ -207,6 +211,15 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_custom_radio
   border-radius: 50%;
   background: white;
 }
+
+.font-italic {
+  font-style: italic;
+}
+
+.padding-30-px {
+  padding-left: 30px;
+}
+
 
 #educations .education p > strong {
   display: block;

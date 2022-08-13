@@ -1,221 +1,257 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
+<head>
+    <meta charset="UTF-8"/>
     <title>ZhongHui Liu</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <link href="https://fonts.googleapis.com" rel="preconnect"/>
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect"/>
     <link
-      href="https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:wght@300&display=swap"
-      rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:wght@300&display=swap"
+            rel="stylesheet"
     />
     <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:300,600,700"
-      rel="stylesheet"
-      type="text/css"
+            href="https://fonts.googleapis.com/css?family=Open+Sans:300,600,700"
+            rel="stylesheet"
+            type="text/css"
     />
     <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+            rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/main.css" type="text/css" />
-    <link rel="stylesheet" href="./css/palettelist.css" type="text/css" />
-  </head>
-  <body>
-    <div class="center">
-      <div id="top-section" class="first-color text-center container">
+    <link href="./css/main.css" rel="stylesheet" type="text/css"/>
+    <link href="./css/palettelist.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div class="center">
+    <div class="first-color text-center container" id="top-section">
         <h3 class="text-center">Profile</h3>
         <article>
-          <img src="imgs/profile.jpg" alt="ZhongHui Liu" width="246" height="246" />
-          <h4>ZhongHui Liu</h4>
+            <img alt="ZhongHui Liu" height="246" src="imgs/profile.jpg" width="246"/>
+            <h4>ZhongHui Liu</h4>
 
-          <p>Software Engineer, Full-stack Developer</p>
+            <p>Software Engineer, Full-stack Developer</p>
 
-          <div>
-            <button class="btn col-md-2">
-              <i class="fa fa-download"></i><a href="./files/resume.doc" download> Download</a>
-            </button>
-            <button class="btn col-md-2">Contact Me</button>
-          </div>
-        </article>
-      </div>
-
-      <div id="about-me" class="second-color text-center container">
-        <h3>About me</h3>
-        <div id="about-me-desc" class="col-md-6 inline-display">
-          <h4>About Me and Academic Honesty</h4>
-
-          <p>
-
-            I declare that my assessment is wholly my own work in accordance with Seneca Academic
-            Policy. No part of this assessment has been copied manually or electronically from any
-            other source (including web sites) except for the information supplied by the WEB222
-            instructors and / or made available in this assessment for my use. I also declare that
-            no part of this assignment has been distributed to other students.
-          </p>
-        </div>
-
-        <div id="basic-info" class="col-md-5 float-right">
-          <h4>Basic Information</h4>
-
-          <table>
-            <tr>
-              <td><strong>AGE</strong></td>
-              <td>26</td>
-            </tr>
-
-            <tr>
-              <td><strong>EMAIL</strong></td>
-              <td>zliu182@myseneca.ca</td>
-            </tr>
-
-            <tr>
-              <td><strong>LANGUAGE</strong></td>
-              <td>English, Mandarin</td>
-            </tr>
-
-            <tr>
-              <td><strong>CLASS SECTION</strong></td>
-              <td>NHH</td>
-            </tr>
-
-            <tr>
-              <td><strong>STUDENT ID</strong></td>
-              <td>162383210</td>
-            </tr>
-
-            <tr>
-              <td><strong>INSTRUCTOR</strong></td>
-              <td></td>
-            </tr>
-          </table>
-        </div>
-      </div>
-
-      <div id="educations" class="third-color text-center container">
-        <h3>Educations</h3>
-        <!--     Current Education in Seneca-->
-        <div class="education row">
-          <div class="col-md-4 inline-display">
-            <h4>Seneca College</h4>
-            <p class="education-period">Jan 2022 - Dec 2024</p>
-          </div>
-
-          <div class="col-md-6 float-right">
-            <p>
-              <storng> Computer Programming Analysis </storng>
-
-              <span> Something about the courses </span>
-            </p>
-          </div>
-        </div>
-
-        <!--     Previous Education in Saint Mary's University-->
-        <div class="education row">
-          <div class="col-md-4 inline-display">
-            <h4>Saint Mary's University</h4>
-
-            <p class="education-period">Sep 2016 - May 2020</p>
-          </div>
-
-          <div class="col-md-6 float-right">
-            <p>
-              <storng> Account & Finance </storng>
-
-              <span> Something about the courses </span>
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div id="contact-me" class="fourth-color container">
-        <h3 class="text-center">Contact Me</h3>
-        <form id="contact-me-form" class="center" action="https://httpbin.org/post" method="POST">
-          <div class="col-md-12">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" required />
-          </div>
-
-          <div class="col-md-12">
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" required />
-          </div>
-
-          <div class="col-md-12">
-            <label for="address">Address</label>
-            <input type="text" id="address" name="address" required />
-          </div>
-
-          <div class="col-md-12">
-            <label for="city">City</label>
-            <input list="cities" name="city" id="city" required />
-            <datalist id="cities">
-              <option value="Toronto" />
-              <option value="Vancouver" />
-              <option value="Montreal" />
-              <option value="Niagara Falls" />
-              <option value="Victoria" />
-              <option value="Halifax" />
-              <option value="Quebec City" />
-              <option value="Calgary" />
-              <option value="Ottawa" />
-              <option value="Edmonton" />
-              <option value="Richmond Hill" />
-              <option value="Markham" />
-              <option value="Vaughan" />
-            </datalist>
-          </div>
-
-          <div class="col-md-12">
-            <label for="postalCode">Postal Code</label>
-            <input
-              type="text"
-              id="postalCode"
-              name="postalCode"
-              placeholder="e.g. A1A 0W3"
-              pattern="^(?![DFIOQUWZ])[A-Z]\d(?![DFIOQUWZ])[A-Z] +\d(?![DFIOQU])[A-Z]\d$"
-              required
-            />
-          </div>
-
-          <div class="col-md-12">
             <div>
-              <h4>Contacting me for ?</h4>
-              <label class="radio-container"
-                >Question
-                <input type="radio" id="question" name="type" value="Question" />
-                <span class="checkmark"></span>
-              </label>
-
-              <label class="radio-container"
-                >Comment
-                <input type="radio" id="comment" name="type" value="Comment" />
-                <span class="checkmark"></span>
-              </label>
-
-              <label class="radio-container">
-                Hiring
-                <input type="radio" id="hiring" name="type" value="Hiring" />
-                <span class="checkmark"></span>
-              </label>
+                <button class="btn col-md-2">
+                    <i class="fa fa-download"></i><a download href="./files/ZhongHui_Liu_Resume.PDF"> Download</a>
+                </button>
+                <button class="btn col-md-2"><a href="#contact-me">Contact Me</a> </button>
             </div>
-            <div id="hireMe"></div>
-          </div>
-
-          <div class="col-md-12">
-            <label for="message">Comments / Questions </label>
-            <textarea id="message" name="message" rows="5" cols="50" required></textarea>
-          </div>
-
-          <div class="col-md-12">
-            <input type="submit" class="button" value="Submit" />
-          </div>
-        </form>
-      </div>
+        </article>
     </div>
 
-    <!--    import javascripts-->
-    <script src="./js/formActionListener.js"></script>
-  </body>
+    <div class="second-color text-center container" id="about-me">
+        <h3>About me</h3>
+        <div class="col-md-6 inline-display" id="about-me-desc">
+            <h4>About Me and Academic Honesty</h4>
+
+            <p class="text-left">
+                My name is Zhonghui, and I am a programming student at Seneca College. I am looking for a full-time
+                internship as Software Engineer while I can do it when I take courses at school. I am skilled in C++ and
+                JavaScript. Besides learning a lot in college, I am also learning other languages to do mini-projects,
+                like Python and Java. My hobbies are hiking and playing badminton with my friends.
+            </p>
+            <br>
+            <p class="text-left">
+                I declare that my assessment is wholly my own work in accordance with Seneca Academic Policy. No part of
+                this assessment has been copied manually or electronically from any other source (including web sites)
+                except for the information supplied by the WEB222 instructors and / or made available in this assessment
+                for my use. I also declare that no part of this assignment has been distributed to other students.
+            </p>
+        </div>
+
+        <div class="col-md-5 float-right" id="basic-info">
+            <h4>Basic Information</h4>
+
+            <table>
+                <tr>
+                    <td><strong>AGE</strong></td>
+                    <td>26</td>
+                </tr>
+
+                <tr>
+                    <td><strong>EMAIL</strong></td>
+                    <td>zliu182@myseneca.ca</td>
+                </tr>
+
+                <tr>
+                    <td><strong>LANGUAGE</strong></td>
+                    <td>English, Mandarin</td>
+                </tr>
+
+                <tr>
+                    <td><strong>CLASS SECTION</strong></td>
+                    <td>NHH</td>
+                </tr>
+
+                <tr>
+                    <td><strong>STUDENT ID</strong></td>
+                    <td>162383210</td>
+                </tr>
+
+                <tr>
+                    <td><strong>INSTRUCTOR</strong></td>
+                    <td>Siyavash Ghasseminia</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="third-color text-center container" id="educations">
+        <h3>Educations</h3>
+        <!--     Current Education in Seneca-->
+        <div class="education row text-left">
+
+            <div class="col-md-10">
+                <div>
+                    <strong>Seneca College</strong> <span class="padding-30-px">Jan 2022 - Dec 2024</span>
+                </div>
+
+                <div class="font-italic">
+                    Computer Programming Analysis
+                </div>
+
+            </div>
+
+            <div class="col-md-8 text-left">
+
+                <ul class="text-left">
+                    <li>C language, Linux, Problem Solving</li>
+                    <li>C++ language, Database, Web Design, Data Communications</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="education row text-left">
+
+            <div class="col-md-10">
+                <div>
+                    <strong>Saint Mary's University</strong> <span class="padding-30-px">Sep 2016 - May 2020</span>
+                </div>
+
+                <div class="font-italic">
+                    Bachelor of Commerce Major in Accounting annd Finance
+                </div>
+
+            </div>
+
+            <div class="col-md-8 text-left">
+
+                <ul class="text-left">
+                    <li>Taxation, Financial Statements Analysis, Auditing</li>
+                    <li>Business Finance, Investments, Portfolio Management</li>
+                </ul>
+            </div>
+
+
+            <!--     Previous Education in Saint Mary's University-->
+
+        </div>
+    </div>
+
+    <div class="container" id="project">
+    </div>
+
+
+    <div class="fourth-color container" id="contact-me">
+        <h3 class="text-center">Contact Me</h3>
+        <form action="https://httpbin.org/post" class="center" id="contact-me-form" method="POST">
+            <div class="col-md-12">
+                <label for="name">Name</label>
+                <input id="name" name="name" required type="text"/>
+            </div>
+
+            <div class="col-md-12">
+                <label for="email">Email</label>
+                <input id="email" name="email" required type="email"/>
+            </div>
+
+            <div class="col-md-12">
+                <label for="address">Address</label>
+                <input id="address" name="address" required type="text"/>
+            </div>
+
+            <div class="col-md-12">
+                <label for="city">City</label>
+                <input id="city" list="cities" name="city" required/>
+                <datalist id="cities">
+                    <option value="Toronto"/>
+                    <option value="Vancouver"/>
+                    <option value="Montreal"/>
+                    <option value="Niagara Falls"/>
+                    <option value="Victoria"/>
+                    <option value="Halifax"/>
+                    <option value="Quebec City"/>
+                    <option value="Calgary"/>
+                    <option value="Ottawa"/>
+                    <option value="Edmonton"/>
+                    <option value="Richmond Hill"/>
+                    <option value="Markham"/>
+                    <option value="Vaughan"/>
+                </datalist>
+            </div>
+
+            <div class="col-md-12">
+                <label for="postalCode">Postal Code</label>
+                <input
+                        id="postalCode"
+                        name="postalCode"
+                        pattern="^(?![DFIOQUWZ])[A-Z]\d(?![DFIOQUWZ])[A-Z] +\d(?![DFIOQU])[A-Z]\d$"
+                        placeholder="e.g. A1A 0W3"
+                        required
+                        type="text"
+                />
+            </div>
+
+            <div class="col-md-12">
+                <div>
+                    <h4>Contacting me for ?</h4>
+                    <label class="radio-container"
+                    >Question
+                        <input id="question" name="type" type="radio" value="Question"/>
+                        <span class="checkmark"></span>
+                    </label>
+
+                    <label class="radio-container"
+                    >Comment
+                        <input id="comment" name="type" type="radio" value="Comment"/>
+                        <span class="checkmark"></span>
+                    </label>
+
+                    <label class="radio-container">
+                        Hiring
+                        <input id="hiring" name="type" type="radio" value="Hiring"/>
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+                <div id="hireMe"></div>
+            </div>
+
+            <div class="col-md-12">
+                <label for="message">Comments / Questions </label>
+                <textarea cols="50" id="message" name="message" required rows="5"></textarea>
+            </div>
+
+            <div class="col-md-12">
+                <input class="button" type="submit" value="Submit"/>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!--    import javascripts-->
+<script src="./js/formActionListener.js"></script>
+<script src="./js/videoPlayer.js"></script>
+<script>
+    window.onload = () => { // render the page for the first time
+        formActionListener();
+        videoPlayer();
+    }
+    window.onresize = () => { // on resize event, we will trigger it when the window size is changed
+        videoPlayer();
+    }
+</script>
+</body>
 </html>

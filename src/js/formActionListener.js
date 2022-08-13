@@ -1,4 +1,5 @@
-window.onload = () => {
+
+const formActionListener = () => {
   // get the radio button element
   // add the change event listener to the radio group
   console.log("Loading Window");
